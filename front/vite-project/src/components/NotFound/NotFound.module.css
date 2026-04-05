@@ -1,0 +1,70 @@
+.notFoundContainer {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+  text-align: center;
+
+
+  background: radial-gradient(
+      circle at top,
+      rgba(255, 255, 255, 0.06),
+      rgba(0, 0, 0, 0.4)
+    ),
+    linear-gradient(180deg, #0b0f14, #070a0f);
+  color: #e9eef6;
+}
+
+.notFoundTitle {
+  margin: 0 0 12px;
+  font-size: clamp(34px, 4vw, 56px);
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.55);
+}
+
+.notFoundMessage {
+  margin: 0 0 22px;
+  max-width: 520px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(233, 238, 246, 0.8);
+}
+
+.homeButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 700;
+
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: #e9eef6;
+
+  
+}
+
+.homeButton:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.24);
+}
+
+.homeButton:active {
+  transform: translateY(0px);
+}
+
+.homeButton:focus-visible {
+  outline: 3px solid rgba(120, 200, 255, 0.45);
+  outline-offset: 3px;
+}

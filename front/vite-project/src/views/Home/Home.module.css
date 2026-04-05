@@ -1,0 +1,86 @@
+.home {
+  padding: 40px 60px;
+  background-color: #ffffff;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #7fe3db, #63d2c8);
+  border-radius: 24px;
+  padding: 60px;
+  gap: 40px;
+}
+
+.heroContent {
+  max-width: 50%;
+}
+
+.heroContent h1 {
+  font-size: 60px;
+  font-weight: 700;
+  gap: 80px;
+  color: #0f2f2e;
+  margin-bottom: 30px;
+}
+
+.heroContent p {
+  font-size: 25px;
+  color: #1f4f4e;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.cta {
+  background-color: #2b2b2b;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: #000;
+}
+
+
+.heroImage img {
+  width: 650px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+
+.tutors {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.tutorCard {
+  background-color: #57caff7c;
+  border: 2px solid #000000;
+  border-radius: 14px;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.25s ease-out, box-shadow 0.30s ease-out;
+  will-change: transform; 
+}
+
+.tutorCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+}
+
+.linkResert{
+  text-decoration: none;
+  color: inherit;
+}
